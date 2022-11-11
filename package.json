@@ -1,5 +1,5 @@
 {
-  "name": "andrespervil-react-component-library",
+  "name": "react-component-library",
   "version": "0.2.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
@@ -17,6 +17,10 @@
     "generate": "node ./util/create-component",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrespervil/component-library"
+  },
   "keywords": [
     "React",
     "Component",
@@ -24,7 +28,8 @@
     "Rollup",
     "Typescript",
     "Sass",
-    "Storybook"
+    "Storybook",
+    "CSS modules"
   ],
   "author": "Andrés Pérez",
   "license": "MIT",
@@ -72,6 +77,5 @@
     "typescript-plugin-css-modules": "^3.4.0",
     "esbuild": "^0.15.13",
     "react-icons": "^4.6.0"
-  },
-  "dependencies": {}
+  }
 }
