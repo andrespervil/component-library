@@ -1,0 +1,162 @@
+/* Common styles between buttons */
+.primary,
+.secondary,
+.outlined,
+.rounded,
+.square {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+}
+
+/* Primary button styles */
+.primary {
+  background: #925ff0;
+  color: white;
+
+  &:hover {
+    background: #a87ff3;
+  }
+
+  &:active {
+    background: #5e3a9e;
+  }
+
+  &:disabled {
+    background: #f4effe;
+    color: #737373;
+  }
+}
+
+/* Secondary button styles */
+.secondary {
+  background: #e9dffc;
+  color: #784dc7;
+
+  &:hover {
+    background: #decffa;
+  }
+
+  &:active {
+    background: #e9dffc;
+    color: #361f61;
+  }
+
+  &:disabled {
+    background: #f4effe;
+    color: #737373;
+  }
+}
+
+/* Outlined button styles */
+.outlined {
+  background: #e9dffc;
+  color: #784dc7;
+  border: 1px solid #784dc7;
+
+  &:hover {
+    background: #decffb;
+  }
+
+  &:active {
+    background: #e9dffc;
+    border-color: #361f61;
+    color: #361f61;
+  }
+
+  &:disabled {
+    border-color: #737373;
+    background: #f4effe;
+    color: #737373;
+  }
+}
+
+/* Text button styles */
+.text {
+  background: transparent;
+  border: none;
+  color: #784dc7;
+
+  &:hover {
+    color: #784dc7;
+  }
+
+  &:active {
+    color: #361f61;
+  }
+
+  &:disabled {
+    color: #737373;
+  }
+}
+
+/* Negative button styles */
+.negative {
+  background: white;
+  color: #0f0324;
+  border-radius: 4px;
+  border: none;
+
+  &:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+
+  &:active {
+    background: #784dc7;
+    color: white;
+  }
+
+  &:disabled {
+    background: #f4effe;
+    color: #737373;
+  }
+}
+
+/* Rounded & Square button styles */
+.rounded,
+.square {
+  color: white;
+  background: #925ff0;
+
+  &:hover {
+    background: #a87ff3;
+  }
+
+  &:active {
+    background: #5e3a9e;
+  }
+
+  &:disabled {
+    color: #737373;
+    background: #f4effe;
+  }
+}
+
+.rounded {
+  border-radius: 30px;
+}
+
+.square {
+  border-radius: 0;
+}
+
+//
+// SIZES
+//
+
+.small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.medium {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.large {
+  padding: 16px 32px;
+  font-size: 20px;
+}
