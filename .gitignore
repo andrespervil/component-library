@@ -1,0 +1,8 @@
+node_modules/
+build/
+storybook-static/
+.vscode/
+
+package-lock.json
+yarn.lock
+```
