@@ -11,10 +11,10 @@
  *  const color = '#90ffe2';
  *
  *  const darkerColor = calculateColor(color, 50);
- *  // darkerColor = 'rgb(72,127.5,113)'
+    // darkerColor = 'rgb(72,127.5,113)'
  *
  *  cont lighterColor = calculateColor(color, 150)
- *  // lighterColor = 'rgb(216,382.5,339)'
+    // lighterColor = 'rgb(216,382.5,339)'
  *
  * ```
  */
