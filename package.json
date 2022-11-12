@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library",
+  "name": "andrespervil-react-component-library",
   "version": "0.2.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
