@@ -3,7 +3,7 @@ run-name: Updating Storybook documentation 🚀
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-publish:
     runs-on: ubuntu-latest
