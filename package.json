@@ -1,6 +1,6 @@
 {
-  "name": "andrespervil-react-component-library",
-  "version": "0.2.2",
+  "name": "@pervil/react-component-library",
+  "version": "0.2.3",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [

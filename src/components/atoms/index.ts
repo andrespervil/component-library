@@ -1,2 +1,2 @@
-export * from './Button'
-export * from './Tag'
+export { default as Button } from './Button'
+export { default as Tag } from './Tag'
